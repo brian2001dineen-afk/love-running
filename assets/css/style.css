@@ -1,0 +1,20 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0%;
+    margin: 0%;
+    /* when we set height/width of element it will be applied to the entire element incl. the border: */
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: lightcoral;
+}
+/* Main content */
+main {
+    background-color: lightblue;
+}
+/* Footer */
+footer {
+    background-color: orange;
+}
