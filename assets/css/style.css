@@ -177,7 +177,7 @@ main {
     flex-flow: wrap;
 }
 
-#times div{
+#times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
@@ -190,9 +190,20 @@ main {
     border: 2px solid white;
 }
 
-#times h3{
+#times h3 {
     /* OVerride color to match the text */
     color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    /* Keep alt-text readable */
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
@@ -208,6 +219,14 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Media query: large or landscape phones (>576px) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media queries: tablets and larger (>768px) */
@@ -265,12 +284,22 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos{
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, >992px) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Gallery */
+    #photos{
+        column-count: 4;
     }
 }
 
