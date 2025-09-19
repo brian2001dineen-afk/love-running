@@ -29,6 +29,11 @@ h3 {
     color: #252525;
 }
 
+/* Hider utility class */
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
