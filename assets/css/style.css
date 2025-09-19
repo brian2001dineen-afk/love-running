@@ -286,7 +286,7 @@ main {
     }
 
     /* Gallery */
-    #photos{
+    #photos {
         column-count: 3;
     }
 }
@@ -298,7 +298,7 @@ main {
     }
 
     /* Gallery */
-    #photos{
+    #photos {
         column-count: 4;
     }
 }
